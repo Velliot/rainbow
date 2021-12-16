@@ -1,0 +1,17 @@
+.input {
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.placeholder {
+  font-size: 16px;
+  color: #96989e;
+  position: relative;
+  top: 10px;
+  z-index: 1;
+}
+.wrapper {
+  position: relative;
+}

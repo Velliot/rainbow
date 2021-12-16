@@ -1,0 +1,73 @@
+.ruleBlock {
+  width: 100%;
+  margin-bottom: 54px;
+  color: #fff;
+  scroll-margin: 80px;
+}
+.subtitle {
+  font-size: 36px;
+  font-family: "Bold";
+  color: #ffffff;
+}
+.description {
+  margin-top: 24px;
+  font-size: 24px;
+  font-family: "Regular";
+  color: #e2e4e7;
+}
+
+.source {
+  font-size: 20px;
+  font-family: "Light";
+  font-style: italic;
+  color: #e2e4e7;
+}
+.title {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 830px) {
+  .subtitle {
+    font-size: 36px;
+    font-family: "Bold";
+    color: #ffffff;
+  }
+  .description {
+    margin-top: 24px;
+    font-size: 24px;
+    font-family: "Regular";
+    color: #e2e4e7;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .subtitle {
+    font-size: 28px;
+  }
+  .description {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subtitle {
+    font-size: 20px;
+  }
+  .description {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .ruleBlock {
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .description {
+    margin-top: 0;
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+}

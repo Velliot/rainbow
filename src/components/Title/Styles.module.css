@@ -1,0 +1,27 @@
+.title {
+  margin: 64 0 56 0;
+  font-size: 120px;
+  color: #ffffff;
+  font-family: "Bold";
+  text-align: center;
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    margin: 64 0 56 0;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    margin: 64 0 56 0;
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    margin: 64 0 56 0;
+    font-size: 40px;
+  }
+}

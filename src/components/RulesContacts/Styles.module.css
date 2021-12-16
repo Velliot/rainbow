@@ -1,0 +1,23 @@
+.wrapper {
+  margin-bottom: 32px;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #e2e4e7;
+  size: 24px;
+  font-family: "Bold";
+  margin-bottom: 24px;
+}
+
+.description {
+  color: #e2e4e7;
+  size: 24px;
+  margin-left: 20px;
+  align-items: center;
+}
