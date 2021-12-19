@@ -28,7 +28,7 @@ const HomeView = () => (
             <div id="${s.videoHover}"></div>
         <video  id="${s.video}" className="${
               s.video
-            }" autoPlay muted playsinline webkit-playsinline>
+            }"  autoPlay loop muted playsinline webkit-playsinline>
         <source src="${isMobile ? bouncer_h : bouncer}" type="video/mp4" />
       </video>`,
           }}
@@ -45,7 +45,7 @@ const HomeView = () => (
             <div id="${s.videoHover}"></div>
         <video  id="${s.video}" className="${
               s.video
-            }" autoPlay muted playsinline webkit-playsinline>
+            }"  autoPlay loop muted playsinline webkit-playsinline>
         <source src="${isMobile ? dragqueen_h : dragqueen_v}" type="video/mp4" />
       </video>`,
           }}
@@ -62,7 +62,7 @@ const HomeView = () => (
             <div id="${s.videoHover}"></div>
         <video  id="${s.video}" className="${
               s.video
-            }" autoPlay muted playsinline webkit-playsinline>
+            }"  autoPlay loop muted playsinline webkit-playsinline>
         <source src="${isMobile ? door_h : h1}" type="video/mp4" />
       </video>`,
           }}

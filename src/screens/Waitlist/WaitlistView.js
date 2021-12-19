@@ -2,7 +2,9 @@ import { Link } from "react-router-dom";
 import { Input, NavBar, Picker, Title } from "../../components";
 import { genderList } from "./config";
 import s from "./Styles.module.css";
-import h2 from "../../assets/videos/h2.mp4";
+import dragqueen_h from "../../assets/videos/dragqueen_h.mp4";
+import dragqueen_v from "../../assets/videos/dragqueen_v.mp4";
+import { isMobile } from "react-device-detect";
 
 const WaitlistView = (props) => {
   return (
@@ -113,8 +115,10 @@ const WaitlistView = (props) => {
         className={`${s.videoTag}`}
         dangerouslySetInnerHTML={{
           __html: `
-        <video  id="${s.video}" className="${s.video}" autoPlay loop muted playsinline webkit-playsinline>
-        <source src="${h2}" type="video/mp4" />
+        <video  id="${s.video}" className="${
+            s.video
+          }" autoPlay loop muted playsinline webkit-playsinline>
+        <source src="${isMobile ? dragqueen_v : dragqueen_h}" type="video/mp4" />
       </video>`,
         }}
       />

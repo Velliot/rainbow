@@ -2,6 +2,7 @@
   max-width: 870px;
   margin: 80px auto;
   /* padding-bottom: 110px; */
+  z-index: 2;
 }
 .blured {
   filter: blur(20px);
@@ -18,12 +19,32 @@
   border-left: 1px solid #ffffff;
   padding-left: 24px;
 }
+#keyRules {
+  margin-bottom: 16px;
+  font-size: 40px;
+  color: #fff;
+}
 .contactsBlock {
   margin: 40px 0;
 }
 .rules {
   margin-bottom: 16px;
   font-size: 20px;
+}
+
+.videoTag {
+  width: 100vw;
+  top: 0;
+  padding: none;
+  position: fixed;
+  z-index: 1;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#video {
+  width: 100vw;
 }
 
 @media screen and (max-width: 1024px) {
@@ -45,6 +66,11 @@
   }
   .contactsBlock {
     margin: 40px 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  #video {
+    width: auto;
   }
 }
 

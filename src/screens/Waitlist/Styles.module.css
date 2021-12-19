@@ -86,6 +86,11 @@
     margin: 50px 0 20px;
   }
 }
+@media screen and (max-width: 700px) {
+  #video {
+    width: auto;
+  }
+}
 
 @media screen and (max-width: 640px) {
   .wrapper {
