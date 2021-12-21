@@ -38,7 +38,7 @@ const HomeView = () => (
         ) : (
           <div className={s.imageWrapper}>
             <div id={s.videoHover}></div>
-            <img src={bouncer_mob} className={`${s.image}`} />
+            <img src={bouncer_mob} className={`${s.image}`} alt="img" />
           </div>
         )}
         <Link to="/club-rules" className={s.link}>
@@ -49,7 +49,7 @@ const HomeView = () => (
         {isMobile ? (
           <div className={s.imageWrapper}>
             <div id={s.videoHover}></div>
-            <img src={dragqueen_mob} className={`${s.image}`} />
+            <img src={dragqueen_mob} className={`${s.image}`} alt="img" />
           </div>
         ) : (
           <div
@@ -73,7 +73,7 @@ const HomeView = () => (
         {isMobile ? (
           <div className={s.imageWrapper}>
             <div id={s.videoHover}></div>
-            <img src={door_mob} className={`${s.image}`} />
+            <img src={door_mob} className={`${s.image}`} alt="img" />
           </div>
         ) : (
           <div
@@ -118,10 +118,9 @@ const HomeView = () => (
         <a
           href="https://play.google.com/store/apps/details?id=com.rnbw.app"
           target={"_blank"}
-          alt="googleplay"
           rel="noreferrer"
         >
-          <img src={googleplay} className={`${s.linkItem} ${s.store}`} />
+          <img src={googleplay} className={`${s.linkItem} ${s.store}`} alt="googleplay" />
         </a>
       </div>
     </nav>
