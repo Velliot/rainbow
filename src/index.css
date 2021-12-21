@@ -138,6 +138,15 @@ a {
   src: url("./assets/fonts/ProximaNova-Bold.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "Bold";
+  src: url("./assets/fonts/ProximaNova-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Soulumaze";
+  src: url("./assets/fonts/Soulmaze.otf") format("woff2");
+}
+
 @media screen and (max-width: 700px) {
   .container {
     padding-bottom: 0;
