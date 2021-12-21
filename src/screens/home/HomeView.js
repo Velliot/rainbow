@@ -100,24 +100,25 @@ const HomeView = () => (
       </div>
       <div className={s.linksWrapper}>
         <a href="https://vm.tiktok.com/ZM83BJB4X/" target={"_blank"} rel="noreferrer">
-          <img className={s.linkItem} src={tiktok}></img>
+          <img className={s.linkItem} src={tiktok} alt="tiktok"></img>
         </a>{" "}
         <a href="https://Instagram.com/rnbwclub" target={"_blank"} rel="noreferrer">
-          <img className={s.linkItem} src={instagram}></img>
+          <img className={s.linkItem} src={instagram} alt="instagram"></img>
         </a>
         <a href="https://twitter.com/rnbwclub" target={"_blank"} rel="noreferrer">
-          <img className={s.linkItem} src={twitter}></img>
+          <img className={s.linkItem} src={twitter} alt="twitter"></img>
         </a>
         <a
           href="https://apps.apple.com/us/app/rnbw-club/id1581963996"
           target={"_blank"}
           rel="noreferrer"
         >
-          <img className={`${s.linkItem} ${s.store}`} src={appstore}></img>
+          <img alt="appstore" className={`${s.linkItem} ${s.store}`} src={appstore}></img>
         </a>
         <a
           href="https://play.google.com/store/apps/details?id=com.rnbw.app"
           target={"_blank"}
+          alt="googleplay"
           rel="noreferrer"
         >
           <img src={googleplay} className={`${s.linkItem} ${s.store}`} />
