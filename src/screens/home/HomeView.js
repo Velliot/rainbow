@@ -100,29 +100,38 @@ const HomeView = () => (
       </div>
     </nav>
     <div className={s.linksWrapper}>
-      <a href="https://vm.tiktok.com/ZM83BJB4X/" target={"_blank"} rel="noreferrer">
-        <img className={s.linkItem} src={tiktok} alt="tiktok"></img>
-      </a>{" "}
-      <a href="https://Instagram.com/rnbwclub" target={"_blank"} rel="noreferrer">
-        <img className={s.linkItem} src={instagram} alt="instagram"></img>
-      </a>
-      <a href="https://twitter.com/rnbwclub" target={"_blank"} rel="noreferrer">
-        <img className={s.linkItem} src={twitter} alt="twitter"></img>
-      </a>
-      <a
-        href="https://apps.apple.com/us/app/rnbw-club/id1581963996"
-        target={"_blank"}
-        rel="noreferrer"
-      >
-        <img alt="appstore" className={`${s.linkItem} ${s.store}`} src={appstore}></img>
-      </a>
-      <a
-        href="https://play.google.com/store/apps/details?id=com.rnbw.app"
-        target={"_blank"}
-        rel="noreferrer"
-      >
-        <img src={googleplay} className={`${s.linkItem} ${s.store}`} alt="googleplay" />
-      </a>
+      <div>
+        <div className="socialIcons">
+          <a href="https://vm.tiktok.com/ZM83BJB4X/" target={"_blank"} rel="noreferrer">
+            <img className={s.linkItem} src={tiktok} alt="tiktok"></img>
+          </a>{" "}
+          <a href="https://Instagram.com/rnbwclub" target={"_blank"} rel="noreferrer">
+            <img className={s.linkItem} src={instagram} alt="instagram"></img>
+          </a>
+          <a href="https://twitter.com/rnbwclub" target={"_blank"} rel="noreferrer">
+            <img className={s.linkItem} src={twitter} alt="twitter"></img>
+          </a>
+        </div>
+        <text className={s.arr}>ALL RIGHTS RESERVED</text>
+        <br />
+        <text className={s.arr}>RELEVATION FACTORY LLC</text>
+      </div>
+      <div className={s.storeIcons}>
+        <a
+          href="https://apps.apple.com/us/app/rnbw-club/id1581963996"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <img alt="appstore" className={`${s.linkItem} ${s.store}`} src={appstore}></img>
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=com.rnbw.app"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <img src={googleplay} className={`${s.linkItem} ${s.store}`} alt="googleplay" />
+        </a>
+      </div>
     </div>
   </div>
 );
