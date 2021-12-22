@@ -88,10 +88,10 @@
 
 .store {
   height: 100px;
-  width: 220px;
+  width: 300px;
 }
 
-@media screen and (max-width: 1012px) {
+@media screen and (max-width: 1160px) {
   .linkItem {
     width: 70px;
     margin: 20px;
@@ -118,7 +118,7 @@
 
 @media screen and (max-width: 700px) {
   .linksWrapper {
-    padding: 0 20px;
+    padding: 0 10px;
   }
   .nav {
     height: 100vh;
@@ -139,14 +139,14 @@
   }
 
   .linkItem {
-    height: 35;
-    width: 35;
+    height: 40px;
+    width: 40px;
     margin: 5px;
     z-index: 200;
   }
 
   .store {
-    height: 35;
-    width: 80px;
+    height: 40px;
+    width: 94px;
   }
 }
