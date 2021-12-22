@@ -4,8 +4,8 @@
 }
 .nav {
   flex-direction: row;
-  max-height: 100vh;
-  overflow-y: hidden;
+  /* max-height: 100vh; */
+  /* overflow-y: hidden; */
 }
 .block {
   position: relative;
@@ -71,21 +71,19 @@
 }
 
 .linksWrapper {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   flex-direction: "row";
   width: 100%;
-  position: absolute;
   bottom: 0;
-  padding: 0 5%;
-  z-index: 200;
+  padding: 100px 0;
+  z-index: 1;
   background-color: black;
-  bottom: 0;
+  position: relative;
 }
 .linkItem {
   width: 100px;
   margin: 20px;
-  z-index: 200;
 }
 
 .store {
@@ -120,7 +118,7 @@
 
 @media screen and (max-width: 700px) {
   .linksWrapper {
-    padding: 0 10px;
+    padding: 100px 10px;
   }
   .nav {
     height: 100vh;
